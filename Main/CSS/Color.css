@@ -1,0 +1,47 @@
+/* Root Variables */
+:root {
+    --Color1: #31363f;
+    --Color2: #222831;
+    --Color3: #eeeeee;
+    --Color4: #ffffff;
+}
+
+/* Color1-BG Class */
+.Color1-BG {
+    background: var(--Color1);
+}
+
+/* Color2-BG Class */
+.Color2-BG {
+    background: var(--Color2);
+}
+
+/* Color3-BG Class */
+.Color3-BG {
+    background: var(--Color3);
+}
+
+/* Color4-BG Class */
+.Color4-BG {
+    background: var(--Color4);
+}
+
+/* Color1-TXT Class */
+.Color1-TXT {
+   color: var(--Color1); 
+}
+
+/* Color2-TXT Class */
+.Color2-TXT {
+    color: var(--Color2);
+}
+
+/* Color3-TXT Class */
+.Color3-TXT {
+    color: var(--Color3);
+}
+
+/* Color4-TXT Class */
+.Color4-TXT {
+    color: var(--Color4);
+}

@@ -1,0 +1,30 @@
+/* Root Variables */
+:root {
+    --Color1: #31363F;
+    --Color2: #222831;
+    --Color3: #EEEEEE;
+    --Color4: #ffffff;
+}
+
+/* Html element */
+html {
+    margin: 0;
+    padding: 0;
+    color-scheme: dark;
+}
+
+/* Body element & Root ID */
+body, #ROOT {
+    background: var(--Color1);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+    display: grid;
+    place-items: center;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border: 0 solid transparent;
+}

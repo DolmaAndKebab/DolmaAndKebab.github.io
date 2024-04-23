@@ -1,0 +1,11 @@
+Please make sure to comment your code.
+
+Please make sure to make good and spaced code. 
+
+Please make sure to make good and easy to read code.
+
+Please make sure to create CSS files in the CSS directory and create JS files in the JS directory.
+
+Please make sure to know how to use git.
+
+Please make sure to know how to use github.

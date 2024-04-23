@@ -1,0 +1,27 @@
+/* Root Variables */
+:root {
+    --Color1: #31363f;
+    --Color2: #222831;
+    --Color3: #eeeeee;
+    --Color4: #ffffff;
+}
+
+/* Flex-Center class */
+.Flex-Center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Grid-Center class */
+.Grid-Center {
+    display: grid;
+    place-items: center;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Text-Center class */
+.Text-Center {
+    text-align: center;
+}
