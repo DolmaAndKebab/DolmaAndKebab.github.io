@@ -4,6 +4,11 @@
     --Color2: #222831;
     --Color3: #eeeeee;
     --Color4: #ffffff;
+    --Color5: #ff0000;
+    --Color6: #ff7b00;
+    --Color7: #108fe3;
+    --Color8: #f2ff00;
+    --Color9: #b8fffa;
 }
 
 /* Color1-BG Class */
@@ -26,6 +31,31 @@
     background: var(--Color4);
 }
 
+/* Color5-BG Class */
+.Color5-BG {
+    background: var(--Color5);
+}
+
+/* Color6-BG Class */
+.Color6-BG {
+    background: var(--Color6);
+}
+
+/* Color7-BG Class */
+.Color7-BG {
+    background: var(--Color7);
+}
+
+/* Color8-BG Class */
+.Color8-BG {
+    background: var(--Color8);
+}
+
+/* Color9-BG Class */
+.Color9-BG {
+    background: var(--Color9);
+}
+
 /* Color1-TXT Class */
 .Color1-TXT {
    color: var(--Color1); 
@@ -44,4 +74,29 @@
 /* Color4-TXT Class */
 .Color4-TXT {
     color: var(--Color4);
+}
+
+/* Color5-TXT Class */
+.Color5-TXT {
+    color: var(--Color5);
+}
+
+/* Color6-TXT Class */
+.Color6-TXT {
+    color: var(--Color6);
+}
+
+/* Color7-TXT Class */
+.Color7-TXT {
+    color: var(--Color7);
+}
+
+/* Color8-TXT Class */
+.Color8-TXT {
+    color: var(--Color8);
+}
+
+/* Color9-TXT Class */
+.Color9-TXT {
+    color: var(--Color9);
 }

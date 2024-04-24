@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
 /* Root Variables */
 :root {
     --Color1: #31363f;
@@ -24,4 +26,64 @@
 /* Text-Center class */
 .Text-Center {
     text-align: center;
+}
+
+/* Text & Font Class */
+.Text, .Oswald {
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
+
+/* Text Class */
+.Text, p, h1, h2, h3, h4, h5, h6 {
+    color: var(--Color3);
+}
+
+/* Div Class */
+.Div {
+    background: var(--Color2);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 0rem;
+    padding: 0rem;
+    border: 0rem solid transparent;
+    border-radius: 0.5rem;
+}
+
+/* No-Select Class */
+.No-Select {
+    -webkit-user-select: none;
+    user-select: none;
+}
+
+/* Button Class */
+.Button, button {
+    background: var(--Color1);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 0rem;
+    margin-left: 1rem;
+    padding: 0rem;
+    border: 0rem solid transparent;
+    border-radius: 0.45rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 9.5rem;
+    height: 2rem;
+    gap: 2%;
+    transition: all 0.5s ease;
+    cursor: default;
+}
+
+/* Button Hover */
+.Button:hover, button:hover {
+    color: var(--Color4);
+    box-shadow: 0 0 0.5rem 0 var(--Color3);
+    cursor: pointer
 }

@@ -1,5 +1,7 @@
 /* Root Variables */
 :root {
+    --Very-Tiny: 0.15rem;
+    --Tiny: 0.25rem;
     --Very-Small: 0.5rem;
     --Small: 1rem;
     --Medium: 1.5rem;
@@ -8,6 +10,18 @@
     --Very-Large: 3.5rem;
     --Big: 5rem;
     --Very-Big: 10rem;
+}
+
+/* Very-Tiny size class */
+.Very-Tiny {
+    width: var(--Very-Tiny);
+    height: var(--Very-Tiny);
+}
+
+/* Tiny size class */
+.Tiny {
+    width: var(--Tiny);
+    height: var(--Tiny);
 }
 
 /* Very-Small size class */

@@ -1,0 +1,36 @@
+{
+  "name": "dolma_and_kebab_profile",
+  "version": "1.0.0",
+  "description": "A github page that contains information about repository developers",
+  "main": "./Main/Index.html",
+  "scripts": {
+    "test": "vitest",
+    "start": "live-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DolmaAndKebab/DolmaAndKebab.github.io.git"
+  },
+  "keywords": [
+    "Github",
+    "Github",
+    "Page",
+    "Page",
+    "Github",
+    "Pages",
+    "Pages",
+    "Typescript",
+    "Javascript",
+    "Html",
+    "CSS"
+  ],
+  "author": "Dolma_&_Kebab",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/DolmaAndKebab/DolmaAndKebab.github.io/issues"
+  },
+  "homepage": "https://github.com/DolmaAndKebab/DolmaAndKebab.github.io#readme",
+  "devDependencies": {
+    "vitest": "^1.5.1"
+  }
+}
