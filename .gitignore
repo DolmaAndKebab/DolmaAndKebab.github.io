@@ -1,3 +1,4 @@
 # Unrequired directories & files for the repository
 .
 .*
+node_modules
