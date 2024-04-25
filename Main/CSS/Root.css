@@ -8,8 +8,8 @@
 
 /* Html element */
 html {
-    margin: 0rem;
-    padding: 0rem;
+    margin: 0;
+    padding: 0;
     color-scheme: dark;
 }
 
@@ -19,14 +19,14 @@ body, #ROOT {
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
-    margin: 0rem;
-    padding: 0rem;
+    margin: 0;
+    padding: 0;
     display: grid;
     place-items: center;
     justify-content: center;
     align-items: center;
     text-align: center;
-    border: 0rem solid transparent;
+    border: 0;
     cursor: default;
 }
 
@@ -36,8 +36,8 @@ body, #ROOT {
     justify-content: center;
     align-items: center;
     text-align: center;
-    width: 150vh;
-    height: 8.5vh;
+    width: 100%; /* Adjust width for mobile */
+    height: 10vh; /* Adjust height for mobile */
     margin: 1rem;
 }
 
@@ -49,8 +49,8 @@ body, #ROOT {
     flex-direction: column;
     align-items: center;
     text-align: center;
-    width: 150vh;
-    height: 200vh;
+    width: 100%; /* Adjust width for mobile */
+    height: auto; /* Adjust height for mobile */
     margin: 1rem;
 }
 
@@ -72,7 +72,7 @@ body::-webkit-scrollbar-thumb {
 /* ul element */
 ul {
     list-style-type: none;
-    margin: 0rem;
+    margin: 0;
 }
 
 /* li element */
@@ -93,6 +93,7 @@ li:hover {
 h1, h2, h3, h4, h5, h6 {
     color: var(--Color3);
     transition: all 0.25s ease;
+    font-size: 1.5rem; /* Adjust font size for mobile */
 }
 
 /* h1, h2, h3, h4, h5, h6 elements hover */
