@@ -71,3 +71,8 @@
     width: var(--Very-Big);
     height: var(--Very-Big);
 }
+
+/* Medium Font size class */
+.Medium-Font {
+    font-size: var(--Medium);
+}

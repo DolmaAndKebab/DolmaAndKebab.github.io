@@ -3,9 +3,11 @@
   "version": "1.0.0",
   "description": "A github page that contains information about repository developers",
   "main": "./Main/Index.html",
+  "type": "module",
   "scripts": {
     "test": "vitest",
-    "start": "live-server"
+    "start": "live-server",
+    "build": "npx tsc"
   },
   "repository": {
     "type": "git",

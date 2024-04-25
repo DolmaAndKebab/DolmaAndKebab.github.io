@@ -30,6 +30,7 @@ body, #ROOT {
     cursor: default;
 }
 
+/* Header ID */
 #HEADER {
     display: flex;
     justify-content: center;
@@ -38,4 +39,68 @@ body, #ROOT {
     width: 150vh;
     height: 8.5vh;
     margin: 1rem;
+}
+
+/* Container ID */
+#CONTAINER {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 150vh;
+    height: 200vh;
+    margin: 1rem;
+}
+
+/* Body Scroll bar element */
+body::-webkit-scrollbar {
+    width: 1rem;
+}
+
+/* Body Scroll bar track element */
+body::-webkit-scrollbar-track {
+    background: #2a323f;
+}
+
+/* Body scroll bar  thumb element */
+body::-webkit-scrollbar-thumb {
+    background: #3a404d;
+}
+
+/* ul element */
+ul {
+    list-style-type: none;
+    margin: 0rem;
+}
+
+/* li element */
+li {
+    text-align: left;
+    transition: all 0.25s ease;
+    color: var(--Color3);
+}
+
+/* li element hover */
+li:hover {
+    color: #cce0ff;
+    margin-top: 0.25rem;
+    margin-bottom: 0.25rem;
+}
+
+/* h1, h2, h3, h4, h5, h6 elements */
+h1, h2, h3, h4, h5, h6 {
+    color: var(--Color3);
+    transition: all 0.25s ease;
+}
+
+/* h1, h2, h3, h4, h5, h6 elements hover */
+h1:hover,
+h2:hover,
+h3:hover,
+h4:hover,
+h5:hover,
+h6:hover {
+    color: var(--Color4);
 }
