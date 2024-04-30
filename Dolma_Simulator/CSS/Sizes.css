@@ -1,0 +1,51 @@
+:root {
+    --Very-Small-Size: 0.5rem;
+    --Small-Size: 1.5rem;
+    --Medium-Size: 5rem;
+    --Very-Medium-Size: 7.5rem;
+    --Large-Size: 10rem;
+    --Very-Large-Size: 15rem;
+    --Big-Size: 20rem;
+    --Very-Big-Size: 25rem;
+}
+
+.Very-Small-Size {
+    width: var(--Very-Small-Size);
+    height: var(--Very-Small-Size);
+}
+
+.Small-Size {
+    width: var(--Small-Size);
+    height: var(--Small-Size);
+}
+
+.Medium-Size {
+    width: var(--Medium-Size);
+    height: var(--Medium-Size);
+}
+
+.Very-Medium-Size {
+    width: var(--Very-Medium-Size);
+    height: var(--Very-Medium-Size);
+}
+
+.Large-Size {
+    width: var(--Large-Size);
+    height: var(--Large-Size);
+}
+
+.Very-Large-Size {
+    width: var(--Very-Large-Size);
+    height: var(--Very-Large-Size);
+}
+
+.Big-Size {
+    width: var(--Big-Size);
+    height: var(--Big-Size);
+}
+
+.Very-Big-Size {
+    width: var(--Very-Big-Size);
+    height: var(--Very-Big-Size);
+}
+
