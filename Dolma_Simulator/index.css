@@ -5,6 +5,7 @@ html {
 }
 
 body {
+    background: #ffffff;
     margin: 0;
     padding: 0;
     display: flex;
@@ -25,6 +26,34 @@ button {
     text-align: center;
 }
 
-#Title {
+p {
     font-size: 1.5rem;
+}
+
+p span {
+    color: var(--bs-primary);
+}
+
+#ButtonContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: #f0f0f0;
+    border: 0 solid transparent;
+    border-radius: 0.75rem;
+    width: 45rem;
+}
+
+img {
+    -webkit-user-select: none;
+    user-select: none;
+}
+
+#Img_Title {
+    border-bottom: 0.25rem solid #000000;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 1.5rem;
 }
