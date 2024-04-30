@@ -29,42 +29,51 @@
     <link rel="stylesheet" type="text/css" href="./index.css" />
   </head>
   <body>
-    <div id="TITLE">
-      <img id="Img_Title" src="images/Title.png" alt="Title" sizes="any" />
+
+    <!-- WEBSITE ROOT START -->
+    <div id="ROOT">
+
+      <div id="TITLE">
+        <img id="Img_Title" src="images/Title.png" alt="Title" sizes="any" />
+      </div>
+  
+      <!-- Dolma Simulator Instructions -->
+      <p id="Title">Click For Dolma!</p>
+  
+      <!-- Dolma Clicks Count -->
+      <p id="Count">Dolma Clicks: <span id="Inner-Count">0</span></p>
+  
+      <!-- Dolma Click Button -->
+      <button type="button" class="btn btn-success">Click!</button>
+  
+      <!-- Button Container -->
+      <div id="ButtonContainer">
+  
+        <button type="button" class="btn btn-primary">
+          <img class="Small" sizes="any" src="images/settings.png" alt="Settings"/>
+          Settings
+        </button>
+  
+        <button type="button" class="btn btn-primary">
+          <img class="Small" sizes="any" src="images/store.png" alt="store"/>
+          Store
+        </button>
+  
+        <button type="button" class="btn btn-primary">
+          <img class="Small" sizes="any" src="images/rebirth.png" alt="rebirth"/> 
+          Rebirth
+        </button>
+  
+        <button type="button" class="btn btn-primary">
+          <img class="Small" sizes="any" src="images/Upgrade.png" alt="upgrade"/>
+          Upgrade
+        </button>
+      </div>
+
+
+      <!-- WEBSITE ROOT END -->
     </div>
-
-    <!-- Dolma Simulator Instructions -->
-    <p id="Title">Click For Dolma!</p>
-
-    <!-- Dolma Clicks Count -->
-    <p id="Count">Dolma Clicks: <span id="Inner-Count">0</span></p>
-
-    <!-- Dolma Click Button -->
-    <button type="button" class="btn btn-success">Click!</button>
-
-    <!-- Button Container -->
-    <div id="ButtonContainer">
-
-      <button type="button" class="btn btn-primary">
-        <img class="Small" sizes="any" src="images/settings.png" alt="Settings"/>
-        Settings
-      </button>
-
-      <button type="button" class="btn btn-primary">
-        <img class="Small" sizes="any" src="images/store.png" alt="store"/>
-        Store
-      </button>
-
-      <button type="button" class="btn btn-primary">
-        <img class="Small" sizes="any" src="images/rebirth.png" alt="rebirth"/> 
-        Rebirth
-      </button>
-
-      <button type="button" class="btn btn-primary">
-        <img class="Small" sizes="any" src="images/Upgrade.png" alt="upgrade"/>
-        Upgrade
-      </button>
-    </div>
+    
 
     <!-- BOOTSTRAP -->
     <script
