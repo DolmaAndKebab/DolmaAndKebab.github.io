@@ -4,3 +4,27 @@
     height: 12vh;
     border-bottom: 0.35vh solid #000000;
 }
+
+@keyframes Click {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+/* Click Img */
+#Click {
+    transition: all 0.5s ease;
+    margin: 1rem;
+    padding: 0;
+    animation: Click 7.5s linear infinite;
+    filter: drop-shadow(0 0 2rem #18c747) blur(0.25rem);
+    width: 10rem;
+}
+
+#Click:hover {
+    filter: drop-shadow(0 0 5rem #00ff44) blur(0);
+    width: 12.5rem;
+}
