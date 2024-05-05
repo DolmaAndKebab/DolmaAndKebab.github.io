@@ -1,10 +1,5 @@
-import ClickHandler from "./ClickButtonHandler.js";
+const DolmaClicker = document.getElementById("Click")
 
-let ClickValue = 0;
-const ButtonClickHandler = new  ClickHandler(
-    document.getElementById("Click"),
-    ClickValue,
-    document.getElementById("Inner-Count")
-);
-ButtonClickHandler.HandleClick();
-ButtonClickHandler.HandleCounter();
+DolmaClicker.addEventListener("Click", function() {
+    console.log("I Like Dolma")
+})
